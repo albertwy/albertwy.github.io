@@ -2,7 +2,7 @@
 
 baseURL = "https://albertwy.github.io/"
 languageCode = "en"
-title = ""
+title = "Hi, I'm Yang Wu"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
