@@ -3,11 +3,11 @@
 - id: education
   translation: Education
 - id: experiences
-  translation: Work Experience
+  translation: Publications
 - id: information
-  translation: Information
+  translation: Publications
 - id: interests
-  translation: Interests
+  translation: Research Interests
 - id: languages
   translation: Languages
 - id: projects
