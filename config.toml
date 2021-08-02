@@ -154,7 +154,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval, Sentiment Computing group, at Harbin Institute of Technology (HIT, China) in 2019. My advisor is Prof. Bing Qin. My research interest is multimodal sentiment analysis."
+        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). My advisor is Prof. Bing Qin. My research interests includes multimodal sentiment analysis and natural language processing."
 
 
 
