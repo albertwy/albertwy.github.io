@@ -272,7 +272,7 @@ publishDir = "docs"
         title = "Locate and Combine: A Two-Stage Framework for Aspect-Category Sentiment Analysis."
         name = "Yang Wu, Zhenyu Zhang, Yanyan Zhao and Bing Qin"
         publisher = "NLPCC 2021"
-        href = "http://tcci.ccf.org.cn/conference/2021/"
+        href = "https://link.springer.com/chapter/10.1007/978-3-030-88480-2_47"
 
         details = 'We propose a two-stage strategy named Locate-Combine(LC) to utilize the aspect term in a more straightforward way, which ﬁrst locates the aspect term and then takes it as the bridge to ﬁnd the related sentiment words. The experimental results on the public datasets show that the proposed two-stage strategy is effective, which achieves state-of-the-art performance. Furthermore, our model can output explainable intermediate results for model analysis.'
 
