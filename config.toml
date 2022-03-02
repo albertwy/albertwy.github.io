@@ -254,7 +254,7 @@ publishDir = "docs"
         title = "Sentiment Word Aware Multimodal Refinement for Multimodal Sentiment Analysis with ASR Errors."
         name = "Yang Wu, Yanyan Zhao, Hao Yang, Song Chen, Bing Qin, Xiaohuan Cao, Wenting Zhao"
         publisher = "Findings of ACL 2022"
-        href = "https://www.2022.aclweb.org/"
+        href = "https://arxiv.org/abs/2203.00257"
 
         details = "We propose the sentiment word aware multimodal refinement model (SWRM), which can dynamically refine the erroneous sentiment words by leveraging multimodal sentiment clues.  We conduct extensive experiments on the real-world datasets including MOSI-Speechbrain, MOSI-IBM, and MOSI-iFlytek and the results demonstrate the effectiveness of our model, which surpasses the current state-of-the-art models on three datasets. Furthermore, our approach can be adapted for other multimodal feature fusion models easily. "
 
