@@ -246,11 +246,17 @@ publishDir = "docs"
 
 
 
-
- 
-
     [params.information]
         enable = true
+
+        [[params.information.list]]
+
+        title = "Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."
+        name = "Yang Wu, Yanyan Zhao, Xin Lu, Bing Qin, Yin Wu, Jian Sheng, Jinlong Li"
+        publisher = "2021 Best Paper Award for IEEE Multimedia"
+        href = "https://www.computer.org/publications/best-paper-award-winners"
+
+        details = "We propose the incongruity-aware attention network (IWAN), which detects sarcasm by focusing on the word-level incongruity between modalities via a scoring mechanism. This scoring mechanism could assign larger weights to words with incongruent modalities. Experimental results demonstrate the effectiveness of our proposed IWAN model, which not only achieves the state-of-the-art performance on the MUStARD dataset but also offers the advantages of interpretability."
 
         [[params.information.list]]
         title = "Sentiment Word Aware Multimodal Refinement for Multimodal Sentiment Analysis with ASR Errors."
@@ -268,14 +274,6 @@ publishDir = "docs"
 
         details = "We propose a text-centered shared-private framework (TCSP) for multimodal fusion, which consists of the cross-modal prediction and sentiment regression parts. Experiments on the MOSEI and MOSI datasets demonstrate the effectiveness of our shared-private framework, which outperforms all baselines. Furthermore, our approach provides a new way to utilize the unlabeled data for multimodal sentiment analysis."
 
-        [[params.information.list]]
-
-        title = "Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."
-        name = "Yang Wu, Yanyan Zhao, Xin Lu, Bing Qin, Yin Wu, Jian Sheng, Jinlong Li"
-        publisher = "IEEE Multimedia"
-        href = "https://ieeexplore.ieee.org/document/9387561"
-
-        details = "We propose the incongruity-aware attention network (IWAN), which detects sarcasm by focusing on the word-level incongruity between modalities via a scoring mechanism. This scoring mechanism could assign larger weights to words with incongruent modalities. Experimental results demonstrate the effectiveness of our proposed IWAN model, which not only achieves the state-of-the-art performance on the MUStARD dataset but also offers the advantages of interpretability."
 
        [[params.information.list]]
 
