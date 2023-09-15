@@ -85,7 +85,7 @@ publishDir = "docs"
         university = "Harbin Institute of Technology"
         dates = "2019 - Present"
         [[params.education.list]]
-        degree = "Exchange Student"
+        degree = "Visiting Student"
         university = "National University of Singapore"
         dates = "2021 - 2022"
         [[params.education.list]]
@@ -277,7 +277,7 @@ publishDir = "docs"
         details = "We propose a text-centered shared-private framework (TCSP) for multimodal fusion, which consists of the cross-modal prediction and sentiment regression parts. Experiments on the MOSEI and MOSI datasets demonstrate the effectiveness of our shared-private framework, which outperforms all baselines. Furthermore, our approach provides a new way to utilize the unlabeled data for multimodal sentiment analysis."
 
         [[params.information.list]]
-        title = "Leveraging Multi-modal Interactions among the Intermediate Representations of Deep Transformers for Emotion Recognition"
+        title = "Leveraging Multi-modal Interactions among the Intermediate Representations of Deep Transformers for Emotion Recognition."
         name = "Yang Wu, Zhenyu Zhang, Pai Peng, Yanyan Zhao, Bing Qin"
         publisher = "MuSe'22"
         href = "https://dl.acm.org/doi/abs/10.1145/3551876.3554813"
