@@ -44,13 +44,12 @@ publishDir = "docs"
         #text = "0123 4567 890"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "ywu@ir.hit.edu.cn"
+        url = "mailto:ywu@ir.hit.edu.cn"
+        text = "Mail"
         [[params.contact.list]]
         icon = "fab fa-google"
         url = "https://scholar.google.com/citations?user=uMAvnHkAAAAJ&hl=zh-CN"
         text = "Google Scholar"
-
 
 
 
@@ -88,7 +87,7 @@ publishDir = "docs"
         [[params.education.list]]
         degree = "Exchange Student"
         university = "National University of Singapore"
-        dates = "2021 - Present"
+        dates = "2021 - 2022"
         [[params.education.list]]
         degree = "Master - Computer Science"
         university = "Harbin Institute of Technology"
@@ -104,20 +103,12 @@ publishDir = "docs"
 
 
     [params.awards]
-        enable = false
+        enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
+        name = "2021 Best Paper Award for IEEE Multimedia"
+        body = "IEEE Computer Society Publications Board"
+        date = "2021"
 
 
 
@@ -144,7 +135,7 @@ publishDir = "docs"
         [[params.interests.list]]
         name = "Multimodal Sentiment Analysis"
         [[params.interests.list]]
-        name = "Natural Language Processing"
+        name = "Large Language Model"
 
 
 
@@ -156,7 +147,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). My advisor is Prof. Bing Qin. My research interests include multimodal sentiment analysis and natural language processing."
+        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Bing Qin and Prof. Yanyan Zhao. My research interests include multimodal sentiment analysis and large language model."
 
 
 
@@ -249,6 +240,17 @@ publishDir = "docs"
     [params.information]
         enable = true
 
+
+        [[params.information.list]]
+
+        title = "Improving Cross-Task Generalization with Step-by-Step Instructions."
+        name = "Yang Wu, Yanyan Zhao, Zhongyang Li, Bing Qin, Kai Xiong"        
+        publisher = "Arxiv"
+        href = "https://arxiv.org/pdf/2305.04429.pdf"
+    
+        details = "We propose to incorporate the step-by-step instructions to help language models to decompose the tasks, which can provide the detailed and specific procedures for completing the target tasks. The step-by-step instructions are obtained automatically by prompting ChatGPT, which are further combined with the original instructions to tune language models. The extensive experiments on SUP-NATINST show that the high-quality step-by-step instructions can improve cross-task generalization across different model sizes."
+
+
         [[params.information.list]]
 
         title = "Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."
@@ -274,9 +276,15 @@ publishDir = "docs"
 
         details = "We propose a text-centered shared-private framework (TCSP) for multimodal fusion, which consists of the cross-modal prediction and sentiment regression parts. Experiments on the MOSEI and MOSI datasets demonstrate the effectiveness of our shared-private framework, which outperforms all baselines. Furthermore, our approach provides a new way to utilize the unlabeled data for multimodal sentiment analysis."
 
+        [[params.information.list]]
+        title = "Leveraging Multi-modal Interactions among the Intermediate Representations of Deep Transformers for Emotion Recognition"
+        name = "Yang Wu, Zhenyu Zhang, Pai Peng, Yanyan Zhao, Bing Qin"
+        publisher = "MuSe'22"
+        href = "https://dl.acm.org/doi/abs/10.1145/3551876.3554813"
+
+        details = "Existing end-to-end models typically fuse the uni-modal representations in the last layers without leveraging the multi-modal interactions among the intermediate representations. In this paper, we propose the multi-modal Recurrent Intermediate-Layer Aggregation (RILA) model to explore the effectiveness of leveraging the multi-modal interactions among the intermediate representations of deep pre-trained transformers for end-to-end emotion recognition."
 
        [[params.information.list]]
-
         title = "Locate and Combine: A Two-Stage Framework for Aspect-Category Sentiment Analysis."
         name = "Yang Wu, Zhenyu Zhang, Yanyan Zhao and Bing Qin"
         publisher = "NLPCC 2021"
