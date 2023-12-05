@@ -245,7 +245,7 @@ publishDir = "docs"
 
         title = "Improving Cross-Task Generalization with Step-by-Step Instructions."
         name = "Yang Wu, Yanyan Zhao, Zhongyang Li, Bing Qin, Kai Xiong"        
-        publisher = "Arxiv"
+        publisher = "SCIENCE CHINA Information Sciences"
         href = "https://arxiv.org/pdf/2305.04429.pdf"
     
         details = "We propose to incorporate the step-by-step instructions to help language models to decompose the tasks, which can provide the detailed and specific procedures for completing the target tasks. The step-by-step instructions are obtained automatically by prompting ChatGPT, which are further combined with the original instructions to tune language models. The extensive experiments on SUP-NATINST show that the high-quality step-by-step instructions can improve cross-task generalization across different model sizes."
